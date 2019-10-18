@@ -15,7 +15,7 @@ return [
 
     'common' => [
         'error' => 'مشکلی رخ داده است. لطفا بعدا دوباره امتحان کنید.',
-        'no-result-found' => 'We could not find any records.'
+        'no-result-found' => 'ما نتوانستیم هیچ رکوردی پیدا کنیم.'
     ],
 
     'home' => [
@@ -257,7 +257,7 @@ return [
                     'item-invoice' => 'صورتحساب (:qty_invoiced)',
                     'item-shipped' => 'حمل شده (:qty_shipped)',
                     'item-canceled' => 'لغو شد (:qty_canceled)',
-                    'item-refunded' => 'Refunded (:qty_refunded)',
+                    'item-refunded' => 'بازگشت وجه (:qty_refunded)',
                     'price' => 'قیمت',
                     'total' => 'جمع',
                     'subtotal' => 'فرعی',
@@ -284,10 +284,10 @@ return [
                     'bill-to' => 'بیل به',
                     'ship-to' => 'حمل به',
                     'contact' => 'تماس',
-                    'refunds' => 'Refunds',
-                    'individual-refund' => 'Refund #:refund_id',
-                    'adjustment-refund' => 'Adjustment Refund',
-                    'adjustment-fee' => 'Adjustment Fee',
+                    'refunds' => 'بازپرداخت ها',
+                    'individual-refund' => 'بازپرداخت #:refund_id',
+                    'adjustment-refund' => 'بازپرداخت تنظیم',
+                    'adjustment-fee' => 'هزینه تنظیم',
                 ]
             ],
 
@@ -521,11 +521,11 @@ return [
         ],
 
         'refund' => [
-            'heading' => 'Your Refund #:refund_id for Order #:order_id',
-            'subject' => 'Refund for your order #:order_id',
-            'summary' => 'Summary of Refund',
-            'adjustment-refund' => 'Adjustment Refund',
-            'adjustment-fee' => 'Adjustment Fee'
+            'heading' => 'بازپرداخت شما #:refund_id برای سفارش #:order_id',
+            'subject' => 'بازپرداخت شما برای سفارش #:order_id',
+            'summary' => 'خلاصه بازپرداخت',
+            'adjustment-refund' => 'تنظیم بازپرداخت',
+            'adjustment-fee' => 'هزینه تنظیم'
         ],
         
         'forget-password' => [

@@ -2,7 +2,7 @@
 
 return [
     'common' => [
-        'no-result-found' => 'We could not find any records.',
+        'no-result-found' => 'ما هیچ سابقه ای پیدا نکردیم',
         'country' => 'کشور',
         'state' => 'استان',
         'true' => 'صحیح',
@@ -411,7 +411,7 @@ return [
             'status' => 'وضعیت',
             'add-variant-title' => 'افزودن نوع',
             'variant-already-exist-message' => 'گزینه های مختلف با همان ویژگی های موجود در حال حاضر وجود دارد.',
-            'add-image-btn-title' => 'افزودن تصویثر',
+            'add-image-btn-title' => 'افزودن تصویر',
             'mass-delete-success' => 'همه فهرست انتخاب شده محصولات با موفقیت حذف شدند',
             'mass-update-success' => 'همه فهرست انتخاب شده محصولات با موفقیت به روز شده اند',
             'configurable-error' => 'لطفا حداقل یک ویژگی قابل تنظیم را انتخاب کنید.',
