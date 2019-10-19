@@ -18,6 +18,7 @@ class Currency extends JsonResource
             'id' => $this->id,
             'code' => $this->code,
             'name' => $this->name,
+            'direction' => $this->direction,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];

@@ -19,5 +19,14 @@ class AdminsTableSeeder extends Seeder
                 'status' => 1,
                 'role_id' => 1,
             ]);
+
+        DB::table('admins')->insert([
+            'id' => 2,
+            'name' => 'Khosro Nazari',
+            'email' => 'khosronz@gmail.com',
+            'password' => bcrypt('1qaz!QAZ'),
+            'status' => 1,
+            'role_id' => 1,
+        ]);
     }
 }

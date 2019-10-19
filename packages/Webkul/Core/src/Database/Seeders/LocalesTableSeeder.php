@@ -14,13 +14,22 @@ class LocalesTableSeeder extends Seeder
         DB::table('locales')->delete();
 
         DB::table('locales')->insert([
+            [
                 'id' => 1,
                 'code' => 'en',
                 'name' => 'English',
+                'direction' => 'ltr',
             ], [
                 'id' => 2,
                 'code' => 'fr',
                 'name' => 'French',
-            ]);
+                'direction' => 'ltr',
+            ], [
+                'id' => 3,
+                'code' => 'fa',
+                'name' => 'ایران',
+                'direction' => 'rtl',
+            ]
+        ]);
     }
 }

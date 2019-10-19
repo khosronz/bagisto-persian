@@ -32,6 +32,8 @@ return [
     'status' => 'Status',
     'select-option' => 'Select option',
     'category' => 'Category',
+    'ASC' => 'ASC',
+    'Desc' => 'Desc',
 
     'common' => [
         'no-result-found' => 'We could not find any records.',

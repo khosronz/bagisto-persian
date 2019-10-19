@@ -18,5 +18,11 @@ class CurrencyTableSeeder extends Seeder
             'code' => 'USD',
             'name' => 'US Dollar'
         ]);
+
+        DB::table('currencies')->insert([
+            'id' => 2,
+            'code' => 'IRR',
+            'name' => 'تومان'
+        ]);
     }
 }
