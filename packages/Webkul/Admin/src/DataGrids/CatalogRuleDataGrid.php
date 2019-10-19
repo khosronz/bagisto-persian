@@ -81,7 +81,7 @@ class CatalogRuleDataGrid extends DataGrid
 
         $this->addColumn([
             'index' => 'end_other_rules',
-            'label' => 'End Other Rules',
+            'label' => __('End Other Rules'),
             'type' => 'boolean',
             'searchable' => false,
             'sortable' => true,
@@ -96,7 +96,7 @@ class CatalogRuleDataGrid extends DataGrid
 
         $this->addColumn([
             'index' => 'action_code',
-            'label' => 'Action Type',
+            'label' => __('Action Type'),
             'type' => 'string',
             'searchable' => true,
             'sortable' => true,

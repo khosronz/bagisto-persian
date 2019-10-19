@@ -111,8 +111,10 @@ return [
         'edit' => 'Edit',
         'create' => 'Add',
         'delete' => 'Delete',
+        'promotion' => 'Promotion',
         'promotions' => 'Promotions',
-        'cart-rules' => 'Cart Rules'
+        'cart-rules' => 'Cart Rules',
+        'action-type' => 'Action Type'
     ],
 
     'dashboard' => [
@@ -145,7 +147,7 @@ return [
             'update-success' => 'Selected index of :resource were successfully updated',
             'no-resource' => 'The resource provided for insufficient for the action'
         ],
-
+        'url-key' => 'URL Key',
         'id' => 'ID',
         'status' => 'Status',
         'code' => 'Code',
@@ -335,7 +337,6 @@ return [
             'tax' => 'Tax',
             'tax-percent' => 'Tax Percent',
             'tax-amount' => 'Tax Amount',
-            'discount-amount' => 'Discount Amount',
             'discount-amount' => 'Discount Amount',
             'grand-total' => 'Grand Total',
             'total-paid' => 'Total Paid',
@@ -952,8 +953,6 @@ return [
             'status' => 'Is Active',
             'all-conditions-true' => 'Assuming all conditions are true',
             'assuming' => 'Assuming',
-            'any' => 'Any',
-            'all' => 'All',
             'conditions' => 'Conditions',
             'apply' => 'Apply',
             'are' => 'are',

@@ -113,7 +113,8 @@ return [
         'delete' => 'حذف',
         'promotion' => 'تبلیغات',
         'promotions' => 'تبلیغات',
-        'cart-rules' => 'قوانین سبد خرید'
+        'cart-rules' => 'قوانین سبد خرید',
+        'action-type' => 'نوع عملیات'
     ],
 
     'dashboard' => [
@@ -144,9 +145,8 @@ return [
             'delete-success' => 'مورد انتخاب شده :resource با موفقیت حذف شد',
             'partial-action' => 'برخی از اقدامات به دلیل محدودیت های سیستم انجام نشد :resource',
             'update-success' => 'مورد انتخاب شده :با موفقیت به روزرسانی شد updated',
+            'no-resource' => 'این منبع برای عملکرد مورد نظر کافی نبوده است'
         ],
-        'url-key' => 'کلید URL',
-
         'id' => 'شناسه',
         'status' => 'وضعیت',
         'code' => 'کد',
@@ -165,6 +165,8 @@ return [
         'email' => 'پست الکترونیک',
         'group' => 'گروه',
         'title' => 'عنوان',
+        'layout' => 'قالب',
+        'url-key' => 'کلید URL',
         'comment' => 'نظر',
         'product-name' => 'محصول',
         'currency-name' => 'نام ارز',
@@ -205,7 +207,7 @@ return [
         'disc_quantity' => 'مقدار استفاده نشده',
         'disc_threshold' => 'آستانه استفاده نشده',
         'use_coupon' => 'استافده از کوپن',
-        'refunded' => 'Refunded'
+        'refunded' => 'بازپرداخت'
     ],
 
     'account' => [
@@ -328,7 +330,7 @@ return [
             'item-invoice' => 'صورت حساب (:qty_invoiced)',
             'item-shipped' => 'حمل شده (:qty_shipped)',
             'item-canceled' => 'لغو شده (:qty_canceled)',
-            'item-refunded' => 'Refunded (:qty_refunded)',
+            'item-refunded' => 'بازپرداخت (:qty_refunded)',
             'price' => 'قیمت',
             'total' => 'کل',
             'subtotal' => 'فرعی',
@@ -398,26 +400,26 @@ return [
         ],
 
         'refunds' => [
-            'title' => 'Refunds',
-            'id' => 'Id',
-            'add-title' => 'Create Refund',
-            'save-btn-title' => 'Refund',
-            'order-id' => 'Order Id',
-            'qty-ordered' => 'Qty Ordered',
-            'qty-to-refund' => 'Qty To Refund',
-            'refund-shipping' => 'Refund Shipping',
-            'adjustment-refund' => 'Adjustment Refund',
-            'adjustment-fee' => 'Adjustment Fee',
-            'update-qty' => 'Update Quantities',
-            'invalid-qty' => 'Found invalid quantity for return items.',
-            'refund-limit-error' => 'The most money available to refund is :amount.',
-            'refunded' => 'Refunded',
-            'date' => 'Refund Date',
-            'customer-name' => 'Customer Name',
-            'status' => 'Status',
-            'action' => 'Action',
-            'view-title' => 'Refund #:refund_id',
-            'invalid-refund-amount-error' => 'Refund amount should be non zero.'
+            'title' => 'بازپرداخت',
+            'id' => 'شناسه',
+            'add-title' => 'بازپرداخت ایجاد کنید',
+            'save-btn-title' => 'بازپرداخت',
+            'order-id' => 'شماره سفارش',
+            'qty-ordered' => 'مبلغ سفارش داده شده',
+            'qty-to-refund' => 'مبلغ برای استرداد',
+            'refund-shipping' => 'ارسال بازپرداخت',
+            'adjustment-refund' => 'بازپرداخت تنظیم',
+            'adjustment-fee' => 'هزینه تنظیم',
+            'update-qty' => 'مقادیر را به روز کنید',
+            'invalid-qty' => 'مقدار نامعتبر برای کالاهای برگشتی یافت شد',
+            'refund-limit-error' => 'بیشترین پول برای بازپرداخت موجود است :amount.',
+            'refunded' => 'بازپرداخت',
+            'date' => 'تاریخ بازپرداخت',
+            'customer-name' => 'نام مشتری',
+            'status' => 'وضعیت',
+            'action' => 'عمل',
+            'view-title' => 'بازپرداخت #:refund_id',
+            'invalid-refund-amount-error' => 'مبلغ بازپرداخت نباید صفر باشد.'
         ]
     ],
 
@@ -463,7 +465,8 @@ return [
             'related-products' => 'محصولات مرتبط',
             'product-search-hint' => 'شروع به تایپ نام محصول کنید',
             'no-result-found' => 'محصولاتی با همین نام یافت نشد',
-            'searching' => 'جست و جو ...'
+            'searching' => 'جست و جو ...',
+            'channel' => 'کانال ها'
         ],
 
         'attributes' => [
@@ -878,7 +881,18 @@ return [
         'select-cart-attr' => 'انتخاب ویژگی سبد خرید',
         'add_condition' => 'افزودن شرط',
         'global_labels' => 'برچسب های جهانی',
+        'declut' => 'گسیختگی',
+        'processing-done' => 'پردازش قوانین انجام شده است',
+        'declut-success' => 'قوانین کاتالوگ موفقیت آمیز اعلام شد',
+        'declut-failure' => 'تغییر قوانین کاتالوگ انجام نشد',
+        'add-attr-condition' => 'شرط ویژگی را اضافه کنید',
         'general-info' => [
+            'sku-like' => 'مانند SKU',
+            'on-shipping' => 'اگر در حمل و نقل اعمال شود',
+            'discount' => 'تخفیف',
+            'shipping-apply-info' => 'این حاکی از رفتار قانون قانون هنگام حمل و نقل است',
+            'general-info' => 'اطلاعات عمومی',
+            'options' => 'گزینه ها',
             'name' => 'نام نقش',
             'description' => 'توضیحات',
             'starts-from' => 'شروع',
@@ -914,7 +928,12 @@ return [
             'labels' => 'برچسب',
             'information'  => 'اطلاعات',
             'actions'  => 'عملیات',
-            'coupons'  => 'کوپن ها'
+            'coupons'  => 'کوپن ها',
+            'prefix' => 'پیشوند',
+            'suffix' => 'پسوند',
+            'code' => 'کد',
+            'global-label' => 'برچسب جهانی',
+            'label' => 'برچسب'
         ],
 
         'status' => [
@@ -1101,6 +1120,7 @@ return [
             'footer' => 'فوتر',
             'content' => 'محتوا',
             'footer-content' => 'متن فوتر',
+            'footer-toggle' => 'نمایش/عدم نمایش فوتر سایت',
             'locale-options' => 'گزینه های واحد',
             'weight-unit' => 'واحد وزن',
             'design' => 'طراحی',
@@ -1109,6 +1129,12 @@ return [
             'credit-max' => 'اعتبار مشتری حداکثر',
             'credit-max-value' => 'حداکثر میزان اعتبار',
             'use-credit-max' => 'استفاده از حداکثر اعتبار',
+            'order-settings' => 'تنظیمات سفارش',
+            'orderNumber' => 'تنظیمات شماره سفارش',
+            'order-number-prefix' => 'پیش شماره شماره سفارش',
+            'order-number-length' => 'طول شماره سفارش',
+            'order-number-suffix' => 'تعداد کافی تعداد سفارش',
+            'default' => 'پیش فرض'
         ]
     ]
 ];

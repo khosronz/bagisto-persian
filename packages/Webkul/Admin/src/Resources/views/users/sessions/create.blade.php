@@ -10,7 +10,7 @@
 
         <div class="panel-content">
 
-            <div class="form-container" style="text-align: left">
+            <div class="form-container" style="text-align: right">
 
                 <h1>{{ __('admin::app.users.sessions.title') }}</h1>
 
