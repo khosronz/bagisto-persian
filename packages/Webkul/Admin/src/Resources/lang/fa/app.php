@@ -42,7 +42,8 @@ return [
         'tax-categories' => 'دسته بندی مالیات',
         'tax-rates' => 'نرخ مالیات',
         'promotion' => 'تبلیغات',
-        'discount' => 'تخفیف'
+        'discount' => 'تخفیف',
+        'cms' => 'CMS'
     ],
 
     'acl' => [
@@ -77,6 +78,7 @@ return [
         'create' => 'افزودن',
         'delete' => 'حذف',
         'promotion' => 'تبلیغات',
+        'promotions' => 'تبلیغات',
         'cart-rules' => 'قوانین سبد خرید'
     ],
 
@@ -109,6 +111,7 @@ return [
             'partial-action' => 'برخی از اقدامات به دلیل محدودیت های سیستم انجام نشد :resource',
             'update-success' => 'مورد انتخاب شده :با موفقیت به روزرسانی شد updated',
         ],
+        'url-key' => 'کلید URL',
 
         'id' => 'شناسه',
         'status' => 'وضعیت',
@@ -959,6 +962,40 @@ return [
         'file-type' => 'csv, xls, xlsx.',
         'no-records' => 'هیچ چیز برای صادرات نیست',
         'illegal-format' => 'خطا! این نوع قالب یا پشتیبانی نمی شود یا فرمت غیرقانونی آن است'
+    ],
+
+    'cms' => [
+        'pages' => [
+            'general' => 'عمومی',
+            'seo' => 'سئو',
+            'pages' => 'صفحه',
+            'title' => 'صفحه ها',
+            'add-title' => 'ایجاد صفحه',
+            'content' => 'محتوا',
+            'url-key' => 'کلید URL',
+            'channel' => 'کانال',
+            'locale' => 'موقعیت جغرافیایی',
+            'create-btn-title' => 'ذخیره صفحه',
+            'edit-title' => 'ویرایش صفحه',
+            'edit-btn-title' => 'ذخیره صفحه',
+            'create-success' => 'صفحه با موفقیت ایجاد گردید.',
+            'create-partial' => 'برخی از صفحات درخواست شده از قبل موجود است.',
+            'create-failure' => 'تمام صفحات درخواست شده از قبل موجود هستند.',
+            'update-success' => 'صفحه با موفقیت بروز گردید.',
+            'update-failure' => 'صفحه نمی تواند ویرایش گردد.',
+            'page-title' => 'عنوان صفحه',
+            'layout' => 'قالب',
+            'meta_keywords' => 'کلمات کلیدی متا',
+            'meta_description' => 'توضیحات متا',
+            'meta_title' => 'عنوان متا',
+            'delete-success' => 'صفحه CMS با موفقیت حذف گردید.',
+            'delete-failure' => 'صفحه CMS نمیتواند حذف گردد.',
+            'preview' => 'پیش نمایش',
+            'one-col' => '<div class="mt-10">کلاس مورد استفاده: <b>"static-container one-column"</b> برای یک ستون قالب.</div>',
+            'two-col' => '<div class="mt-10">کلاس مورد استفاده: <b>"static-container two-column"</b> برای دو ستون قالب.</div>',
+            'three-col' => '<div class="mt-10">کلاس مورد استفاده: <b>"static-container three-column"</b> برای سه ستون قالب.</div>',
+            'helper-classes' => 'کلاسهای کمک کننده (سودمند)'
+        ]
     ],
 
     'response' => [

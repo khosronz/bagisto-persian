@@ -15,6 +15,7 @@ class ZabbixServiceProvider extends ServiceProvider
     {
         include __DIR__ . '/../Http/routes.php';
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'zabbix');
+        $this->loadTranslationsFrom(__DIR__ . '/../Resources/lang', 'zabbix');
     }
 
     /**
