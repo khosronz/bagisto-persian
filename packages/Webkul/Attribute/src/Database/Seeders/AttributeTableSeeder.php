@@ -92,5 +92,33 @@ class AttributeTableSeeder extends Seeder
            ['id' => '24','locale' => 'en','name' => 'Size','attribute_id' => '24'],
            ['id' => '25','locale' => 'en','name' => 'Brand','attribute_id' => '25']
         ]);
+
+        DB::table('attribute_translations')->insert([
+            ['id' => '26','locale' => 'fa','name' => 'SKU','attribute_id' => '1'],
+            ['id' => '27','locale' => 'fa','name' => 'نام','attribute_id' => '2'],
+            ['id' => '29','locale' => 'fa','name' => 'کلید URL','attribute_id' => '3'],
+            ['id' => '30','locale' => 'fa','name' => 'دسته مالیات','attribute_id' => '4'],
+            ['id' => '31','locale' => 'fa','name' => 'جدید','attribute_id' => '5'],
+            ['id' => '32','locale' => 'fa','name' => 'ویژه','attribute_id' => '6'],
+            ['id' => '33','locale' => 'fa','name' => 'قابل مشاهده به صورت جداگانه','attribute_id' => '7'],
+            ['id' => '34','locale' => 'fa','name' => 'وضعیت','attribute_id' => '8'],
+            ['id' => '35','locale' => 'fa','name' => 'توضیح کوتاه','attribute_id' => '9'],
+            ['id' => '36','locale' => 'fa','name' => 'توضیح','attribute_id' => '10'],
+            ['id' => '37','locale' => 'fa','name' => 'قیمت','attribute_id' => '11'],
+            ['id' => '38','locale' => 'fa','name' => 'هزینه','attribute_id' => '12'],
+            ['id' => '39','locale' => 'fa','name' => 'قیمت ویژه','attribute_id' => '13'],
+            ['id' => '40','locale' => 'fa','name' => 'قیمت ویژه از','attribute_id' => '14'],
+            ['id' => '41','locale' => 'fa','name' => 'قیمت ویژه برای','attribute_id' => '15'],
+            ['id' => '42','locale' => 'fa','name' => 'توضیحات متا','attribute_id' => '16'],
+            ['id' => '43','locale' => 'fa','name' => 'کلمات کلیدی متا','attribute_id' => '17'],
+            ['id' => '44','locale' => 'fa','name' => 'توضیحات متا','attribute_id' => '18'],
+            ['id' => '45','locale' => 'fa','name' => 'عرض','attribute_id' => '19'],
+            ['id' => '46','locale' => 'fa','name' => 'ارتفاع','attribute_id' => '20'],
+            ['id' => '47','locale' => 'fa','name' => 'عمق','attribute_id' => '21'],
+            ['id' => '48','locale' => 'fa','name' => 'وزن','attribute_id' => '22'],
+            ['id' => '49','locale' => 'fa','name' => 'رنگ','attribute_id' => '23'],
+            ['id' => '50','locale' => 'fa','name' => 'اندازه','attribute_id' => '24'],
+            ['id' => '51','locale' => 'fa','name' => 'نام تجاری','attribute_id' => '25']
+        ]);
     }
 }
