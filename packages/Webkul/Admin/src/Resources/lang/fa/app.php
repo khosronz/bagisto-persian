@@ -730,6 +730,10 @@ return [
             'update-success' => 'کانال با موفقیت به روز شد.',
             'delete-success' => 'کانال با موفقیت حذف شد.',
             'last-delete-error' => 'حداقل یک کانال مورد نیاز است.',
+            'seo' => 'سئو صفحه اصلی',
+            'seo-title' => 'عنوان متا',
+            'seo-description' => 'توضیحات متا',
+            'seo-keywords' => 'کلمات کلیدی متا'
         ],
         'sliders' => [
             'title' => 'عنوان',
