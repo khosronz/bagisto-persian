@@ -34,6 +34,9 @@ return [
     'category' => 'دسته بندی',
     'ASC' => 'صعودی',
     'Desc' => 'نزولی',
+    'Discount Amount' => 'مقدار تخفیف',
+    'Use Coupon' => 'از کوپن استفاده کنید',
+
     'common' => [
         'no-result-found' => 'ما هیچ سابقه ای پیدا نکردیم',
         'country' => 'کشور',
@@ -145,7 +148,7 @@ return [
             'delete-success' => 'مورد انتخاب شده :resource با موفقیت حذف شد',
             'partial-action' => 'برخی از اقدامات به دلیل محدودیت های سیستم انجام نشد :resource',
             'update-success' => 'مورد انتخاب شده :با موفقیت به روزرسانی شد updated',
-            'no-resource' => 'این منبع برای عملکرد مورد نظر کافی نبوده است'
+            'no-resource' => 'این منبع برای عملکرد مورد نظر کافی نبوده است',
         ],
         'id' => 'شناسه',
         'status' => 'وضعیت',
@@ -207,6 +210,7 @@ return [
         'disc_quantity' => 'مقدار استفاده نشده',
         'disc_threshold' => 'آستانه استفاده نشده',
         'use_coupon' => 'استافده از کوپن',
+        'refund-date' => 'تاریخ بازپرداخت',
         'refunded' => 'بازپرداخت'
     ],
 
@@ -345,8 +349,8 @@ return [
             'total-refunded' => 'بازپرداخت کل',
             'total-due' => 'بدهی کل',
             'cancel-confirm-msg' => 'مطمئن هستید که می خواهید این سفارش را لغو کنید ؟',
-            'refunds' => 'Refunds',
-            'refunded' => 'Refunded'
+            'refunds' => 'بازپرداخت',
+            'refunded' => 'بازپرداخت'
         ],
 
         'invoices' => [
