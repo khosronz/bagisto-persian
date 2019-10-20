@@ -446,7 +446,7 @@ return [
             'no' => 'خیر',
             'yes' => 'بله',
             'disabled' => 'غیرفعال شد',
-            'enabled' => 'قعال شد',
+            'enabled' => 'فعال شد',
             'add-variant-btn-title' => 'افزودن نوع',
             'name' => 'نام',
             'qty' => 'مقدار',
