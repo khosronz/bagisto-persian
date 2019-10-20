@@ -190,7 +190,7 @@ return [
         'shipment-to' => 'Shipping To',
         'sku' => 'SKU',
         'price' => 'Price',
-        'qty' => 'Quantity',
+        'qty' => 'Quantity`',
         'permission-type' => 'Permission Type',
         'identifier' => 'Identifier',
         'state' => 'State',

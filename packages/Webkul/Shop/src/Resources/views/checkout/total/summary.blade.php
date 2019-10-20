@@ -51,7 +51,7 @@
                     <div class="discount-group">
                         <form class="coupon-form" method="post" @submit.prevent="onSubmit">
                             <div class="control-group mt-20" :class="[errors.has('code') ? 'has-error' : '']" style="margin-bottom: 10px">
-                                <input type="text" class="control" value="" v-model="coupon_code" name="code" placeholder="Enter Coupon Code" v-validate="'required'" style="width: 100%" @change="changeCoupon">
+                                <input type="text" class="control" value="" v-model="coupon_code" name="code" placeholder="{{__('Enter Coupon Code')}}" v-validate="'required'" style="width: 100%" @change="changeCoupon">
                             </div>
 
                             <div class="control-error mb-10" v-if="error_message != null" style="color: #FF6472">* @{{ error_message }}</div>

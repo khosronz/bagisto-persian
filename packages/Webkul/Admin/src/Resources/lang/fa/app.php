@@ -563,6 +563,8 @@ return [
             'meta_description' => 'توضیحات متا',
             'meta_keywords' => 'کلیدواژه ها متا',
             'image' => 'تصویر',
+            'filterable-attributes' => 'ویژگی های قابل جستجو',
+            'attributes' => 'ویژگی ها',
         ]
     ],
 
