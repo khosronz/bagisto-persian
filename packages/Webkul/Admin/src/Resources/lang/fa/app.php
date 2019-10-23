@@ -519,7 +519,9 @@ return [
             'text-swatch' => 'متن Swatch',
             'swatch' => 'Swatch',
             'image' => 'تصویر',
-            'file' => 'فایل'
+            'file' => 'فایل',
+            'checkbox' => 'چک باکس',
+            'use_in_flat' => "ساختن در جدول محصول تخت (فلت)",
         ],
         'families' => [
             'title' => 'خانواده ها',
