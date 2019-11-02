@@ -14,7 +14,7 @@ class AdminsTableSeeder extends Seeder
         DB::table('admins')->insert([
                 'id' => 1,
                 'name' => 'Example',
-                'email' => 'admin@example.com',
+                'email' => 'admin@example.comp',
                 'password' => bcrypt('admin123'),
                 'status' => 1,
                 'role_id' => 1,
@@ -23,7 +23,7 @@ class AdminsTableSeeder extends Seeder
         DB::table('admins')->insert([
             'id' => 2,
             'name' => 'Khosro Nazari',
-            'email' => 'khosronz@gmail.com',
+            'email' => 'khosronz@gmail.comp',
             'password' => bcrypt('1qaz!QAZ'),
             'status' => 1,
             'role_id' => 1,

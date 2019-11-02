@@ -8,7 +8,7 @@ use Webkul\Payment\Payment\Payment;
 /**
  * Paypal class
  *
- * @author    Jitendra Singh <jitendra@webkul.com>
+ * @author    Jitendra Singh <jitendra@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 abstract class Paypal extends Payment
@@ -21,7 +21,7 @@ abstract class Paypal extends Payment
      */
     public function getPaypalUrl($params = [])
     {
-        return sprintf('https://www.%spaypal.com/cgi-bin/webscr%s',
+        return sprintf('https://www.%spaypal.comp/cgi-bin/webscr%s',
                 $this->getConfigData('sandbox') ? 'sandbox.' : '',
                 $params ? '?' . http_build_query($params) : ''
             );

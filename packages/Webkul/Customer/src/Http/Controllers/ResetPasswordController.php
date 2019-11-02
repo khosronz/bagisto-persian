@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 /**
  * Reset Password controlller for the customer.
  *
- * @author    Prashant Singh <prashant.singh852@webkul.com>
+ * @author    Prashant Singh <prashant.singh852@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 

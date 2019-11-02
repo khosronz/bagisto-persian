@@ -8,7 +8,7 @@ use Carbon\Carbon;
 /**
  * Sale - Abstract class designed to initiate the application of Catalog Rules
  *
- * @author  Prashant Singh <prashant.singh852@webkul.com> @prashant-webkul
+ * @author  Prashant Singh <prashant.singh852@webkul.comp> @prashant-webkul
  * @copyright 2019 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 abstract class Sale

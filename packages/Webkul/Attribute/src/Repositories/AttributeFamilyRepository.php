@@ -11,7 +11,7 @@ use Illuminate\Container\Container as App;
 /**
  * Attribute Reposotory
  *
- * @author    Jitendra Singh <jitendra@webkul.com>
+ * @author    Jitendra Singh <jitendra@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 class AttributeFamilyRepository extends Repository

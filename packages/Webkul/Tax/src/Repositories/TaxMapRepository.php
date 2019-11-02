@@ -7,7 +7,7 @@ use Webkul\Core\Eloquent\Repository;
 /**
  * Tax Mapping Reposotory
  *
- * @author    Prashant Singh <prashant.singh852@webkul.com>
+ * @author    Prashant Singh <prashant.singh852@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 class TaxMapRepository extends Repository

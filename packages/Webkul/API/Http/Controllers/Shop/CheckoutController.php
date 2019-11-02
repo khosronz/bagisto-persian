@@ -17,7 +17,7 @@ use Cart;
 /**
  * Checkout controller
  *
- * @author    Jitendra Singh <jitendra@webkul.com>
+ * @author    Jitendra Singh <jitendra@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 class CheckoutController extends Controller

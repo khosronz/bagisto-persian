@@ -28543,7 +28543,7 @@ if (token) {
      * @example
      *
      * _.escapeRegExp('[lodash](https://lodash.com/)');
-     * // => '\[lodash\]\(https://lodash\.com/\)'
+     * // => '\[lodash\]\(https://lodash\.comp/\)'
      */
     function escapeRegExp(string) {
       string = toString(string);

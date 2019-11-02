@@ -99,9 +99,9 @@ return [
     'datagrid' => [
         'mass-ops' => [
             'method-error' => 'Erro! Método errado detectado, por favor, verifique a configuração de ação em massa',
-            'delete-success' => 'O índice selecionado de :resource foi excluído com sucesso',
+            'delete-success' => 'O índice selecionado de :resource foi excluído comp sucesso',
             'partial-action' => 'Algumas ações não foram executadas devido a restrições restritas do sistema em :resource',
-            'update-success' => 'O índice selecionado :resource foram atualizados com sucesso',
+            'update-success' => 'O índice selecionado :resource foram atualizados comp sucesso',
         ],
         'id' => 'ID',
         'status' => 'Status',
@@ -220,9 +220,9 @@ return [
             'delete-success' => 'Sucesso! Usuário Deletado',
             'incorrect-password' => 'A Senha informada é incorreta!',
             'password-match' => 'A senha atual não corresponde.',
-            'account-save' => 'Alterações na conta salvas com sucesso.',
+            'account-save' => 'Alterações na conta salvas comp sucesso.',
             'login-error' => 'Por favor, verifique suas credenciais e tente novamente.',
-            'activate-warning' => 'Sua conta ainda está para ser ativada, entre em contato com o administrador.'
+            'activate-warning' => 'Sua conta ainda está para ser ativada, entre em contato comp o administrador.'
         ],
         'sessions' => [
             'title' => 'Entrar',
@@ -390,10 +390,10 @@ return [
             'weight' => 'Peso',
             'status' => 'Status',
             'add-variant-title' => 'Add Variação',
-            'variant-already-exist-message' => 'Variante com as mesmas opções de atributo já existe.',
+            'variant-already-exist-message' => 'Variante comp as mesmas opções de atributo já existe.',
             'add-image-btn-title' => 'Add Imagem',
-            'mass-delete-success' => 'Todos os índices de produtos selecionados foram excluídos com sucesso',
-            'mass-update-success' => 'Todo o índice selecionado de produtos foi atualizado com sucesso',
+            'mass-delete-success' => 'Todos os índices de produtos selecionados foram excluídos comp sucesso',
+            'mass-update-success' => 'Todo o índice selecionado de produtos foi atualizado comp sucesso',
             'configurable-error' => 'Por favor, selecione pelo menos um atributo configurável.',
             'categories' => 'Categorias',
             'images' => 'Imagens',
@@ -404,7 +404,7 @@ return [
             'up-selling' => 'Acima de vender',
             'related-products' => 'Produtos relacionados',
             'product-search-hint' => 'Comece a digitar o nome do produto',
-            'no-result-found' => 'Produtos não encontrados com o mesmo nome.',
+            'no-result-found' => 'Produtos não encontrados comp o mesmo nome.',
             'searching' => 'Procurando ...'
         ],
         'attributes' => [
@@ -471,7 +471,7 @@ return [
             'type' => 'Tipo',
             'add-attribute-title' => 'Add Atributos',
             'search' => 'Buscar',
-            'group-exist-error' => 'Grupo com o mesmo nome já existe.'
+            'group-exist-error' => 'Grupo comp o mesmo nome já existe.'
         ],
         'categories' => [
             'title' => 'Categorias',
@@ -502,7 +502,7 @@ return [
     'configuration' => [
         'title' => 'Configuração',
         'save-btn-title' => 'Salvar',
-        'save-message' => 'Configuração salvada com sucesso!',
+        'save-message' => 'Configuração salvada comp sucesso!',
         'yes' => 'Sim',
         'no' => 'Não',
         'delete' => 'Deletar',
@@ -563,9 +563,9 @@ return [
             'general' => 'Geral',
             'code' => 'Código',
             'name' => 'Nome',
-            'create-success' => 'Local criado com sucesso.',
-            'update-success' => 'Localidade atualizada com sucesso.',
-            'delete-success' => 'Locale excluído com sucesso.',
+            'create-success' => 'Local criado comp sucesso.',
+            'update-success' => 'Localidade atualizada comp sucesso.',
+            'delete-success' => 'Locale excluído comp sucesso.',
             'last-delete-error' => 'Pelo menos um local é obrigatório.'
         ],
         'countries' => [
@@ -585,9 +585,9 @@ return [
             'code' => 'Código',
             'name' => 'Nome',
             'symbol' => 'Símbolo',
-            'create-success' => 'Moeda criada com sucesso.',
-            'update-success' => 'Moeda atualizada com sucesso.',
-            'delete-success' => 'Moeda excluída com sucesso.',
+            'create-success' => 'Moeda criada comp sucesso.',
+            'update-success' => 'Moeda atualizada comp sucesso.',
+            'delete-success' => 'Moeda excluída comp sucesso.',
             'last-delete-error' => 'Pelo menos uma moeda é necessária.'
         ],
         'exchange_rates' => [
@@ -599,9 +599,9 @@ return [
             'source_currency' => 'Moeda de Origem',
             'target_currency' => 'Moeda Alvo',
             'rate' => 'Taxa',
-            'create-success' => 'Taxa de Câmbio criada com sucesso.',
-            'update-success' => 'Taxa de Câmbio atualizada com sucesso.',
-            'delete-success' => 'Taxa de Câmbio excluída com sucesso.',
+            'create-success' => 'Taxa de Câmbio criada comp sucesso.',
+            'update-success' => 'Taxa de Câmbio atualizada comp sucesso.',
+            'delete-success' => 'Taxa de Câmbio excluída comp sucesso.',
             'last-delete-error' => 'Pelo menos uma taxa de câmbio é necessária.'
         ],
         'inventory_sources' => [
@@ -629,9 +629,9 @@ return [
             'latitude' => 'Latitude',
             'longitude' => 'Longitude',
             'status' => 'Status',
-            'create-success' => 'Fonte de inventário criada com sucesso.',
-            'update-success' => 'Fonte de inventário atualizada com sucesso.',
-            'delete-success' => 'Fonte de inventário excluída com sucesso.',
+            'create-success' => 'Fonte de inventário criada comp sucesso.',
+            'update-success' => 'Fonte de inventário atualizada comp sucesso.',
+            'delete-success' => 'Fonte de inventário excluída comp sucesso.',
             'last-delete-error' => 'Pelo menos uma fonte de inventário é necessária.'
         ],
         'channels' => [
@@ -657,9 +657,9 @@ return [
             'footer_content' => 'Conteúdo do Rodapé',
             'logo' => 'Logo',
             'favicon' => 'Favicon',
-            'create-success' => 'Canal criado com sucesso.',
-            'update-success' => 'Canal atualizado com sucesso.',
-            'delete-success' => 'Canal excluído com sucesso.',
+            'create-success' => 'Canal criado comp sucesso.',
+            'update-success' => 'Canal atualizado comp sucesso.',
+            'delete-success' => 'Canal excluído comp sucesso.',
             'last-delete-error' => 'Pelo menos um canal é necessário.'
         ],
         'sliders' => [
@@ -671,12 +671,12 @@ return [
             'image' => 'Imagem',
             'content' => 'Conteúdo',
             'channels' => 'Canal(Loja)',
-            'created-success' => 'Slider criado com sucesso',
+            'created-success' => 'Slider criado comp sucesso',
             'created-fault' => 'Erro ao criar Slider',
-            'update-success' => 'Slider atualizado com sucesso',
+            'update-success' => 'Slider atualizado comp sucesso',
             'update-fail' => 'Slider não pôde ser atualizado',
             'delete-success' => 'Não foi possível excluir o slider',
-            'delete-fail' => 'Slider excluído com sucesso'
+            'delete-fail' => 'Slider excluído comp sucesso'
         ],
         'tax-categories' => [
             'title' => 'Categorias de Imposto',
@@ -695,10 +695,10 @@ return [
             ],
             'create-success' => 'Nova Categoria de Imposto Criada',
             'create-error' => 'Erro, durante a Criação da Categoria de Imposto',
-            'update-success' => 'Categoria de Imposto atualizada com sucesso',
+            'update-success' => 'Categoria de Imposto atualizada comp sucesso',
             'update-error' => 'Erro, durante a atualização da Categoria de Imposto',
             'atleast-one' => 'Não é possível excluir a última Categoria de Imposto',
-            'delete' => 'Categoria de Imposto excluída com sucesso'
+            'delete' => 'Categoria de Imposto excluída comp sucesso'
         ],
         'tax-rates' => [
             'title' => 'Taxas de Impostos',
@@ -720,11 +720,11 @@ return [
             ],
             'zip_code' => 'CEP',
             'is_zip' => 'Ativar Range de CEP',
-            'create-success' => 'Taxas de Impostos Criada com Sucesso',
+            'create-success' => 'Taxas de Impostos Criada comp Sucesso',
             'create-error' => 'Não foi Possível Criar a Taxa de Impostos',
-            'update-success' => 'Taxas de Impostos Atualizadas com Sucesso',
+            'update-success' => 'Taxas de Impostos Atualizadas comp Sucesso',
             'update-error' => 'Erro! Taxas de Impostos Não Poderam ser Atualizadas',
-            'delete' => 'Taxas de Impostos Excluídas com Sucesso',
+            'delete' => 'Taxas de Impostos Excluídas comp Sucesso',
             'atleast-one' => 'Não é Possível Excluir a Última Taxa de Impostos'
         ]
     ],
@@ -768,8 +768,8 @@ return [
             'group-default' => 'Não possível excluir o grupo de cliente.',
             'edit-help-title' => 'Editar cliente',
             'delete-help-title' => 'Excluir cliente',
-            'mass-destroy-success' => 'Clientes excluídos com sucesso',
-            'mass-update-success' => 'Clientes atualizados com sucesso',
+            'mass-destroy-success' => 'Clientes excluídos comp sucesso',
+            'mass-update-success' => 'Clientes atualizados comp sucesso',
             'status' => 'Status',
             'active' => 'Ativo (a)',
             'in-active' => 'Inativo (a)'
@@ -790,9 +790,9 @@ return [
             'email' => 'Email',
             'is_subscribed' => 'Inscrito',
             'edit-btn-title' => 'Atualizar inscrito',
-            'update-success' => 'Inscrito foi atualizado com sucesso',
+            'update-success' => 'Inscrito foi atualizado comp sucesso',
             'update-failed' => 'Erro! Você não pode atualizar a inscrição desse usuário',
-            'delete' => 'Inscrito foi excluído com sucesso',
+            'delete' => 'Inscrito foi excluído comp sucesso',
             'delete-failed' => 'Erro! Você não pode excluir a inscrição desse usuário',
         ]
     ],
@@ -829,7 +829,7 @@ return [
             'uses-per-cust' => 'Usos por cliente',
             'all' => 'Todos (a)',
             'any' => 'Qualquer',
-            'end-other-rules' => 'Acabar com outras regras',
+            'end-other-rules' => 'Acabar comp outras regras',
             'status' => 'Está ativo',
             'all-conditions-true' => 'Assumindo que todas as condições sejam verdadeiras',
             'assuming' => 'Assumindo',
@@ -850,19 +850,19 @@ return [
         ],
         'status' => [
             'success' => 'Sucesso! regra criada',
-            'success-coupon' => 'Sucesso! regra criada junto com o cupom',
+            'success-coupon' => 'Sucesso! regra criada junto comp o cupom',
             'failed' => 'Erro! não conseguiu criar regra',
             'update-success' => 'Sucesso! regra atualizada',
-            'update-coupon-success' => 'Sucesso! regra atualizada junto com cupom',
+            'update-coupon-success' => 'Sucesso! regra atualizada junto comp cupom',
             'update-failed' => 'Erro! não pode atualizar',
             'delete-success' => 'Sucesso! regra excluída',
             'delete-failed' => 'Erro! não pode apagar',
             'coupon-applied' => 'Cupom Usado',
             'coupon-failed' => 'O cupom não foi aplicado',
             'no-coupon' => '* Cupom não aplicável',
-            'coupon-removed' => 'Cupom removido com sucesso',
+            'coupon-removed' => 'Cupom removido comp sucesso',
             'coupon-remove-failed' => 'Remoção de cupons falhou',
-            'duplicate-coupon' => 'O cupom já existe, por favor tente novamente com um cupom diferente'
+            'duplicate-coupon' => 'O cupom já existe, por favor tente novamente comp um cupom diferente'
         ],
         'catalog' => [
             'name' => 'Nome',
@@ -929,19 +929,19 @@ return [
     'response' => [
         'being-used' => 'Este recurso :name está sendo usado em :source',
         'cannot-delete-default' => 'Não é possível excluir o canal padrão',
-        'create-success' => ':name criado com sucesso.',
-        'update-success' => ':name atualizaco com sucesso.',
-        'delete-success' => ':name excluído com sucesso.',
+        'create-success' => ':name criado comp sucesso.',
+        'update-success' => ':name atualizaco comp sucesso.',
+        'delete-success' => ':name excluído comp sucesso.',
         'last-delete-error' => 'Ao menos um :name é obrigatório.',
         'user-define-error' => 'Não pode excluir o sistema :name',
         'attribute-error' => ':name é usado em produtos configuráveis.',
         'attribute-product-error' => ':name é usado em produtos.',
         'customer-associate' => ':name não pode ser excluído porque o cliente está associado a esse grupo.',
         'currency-delete-error' => 'Esta moeda é definida como moeda base do canal, então não pode ser excluída.',
-        'upload-success' => ':name carregado com sucesso.',
+        'upload-success' => ':name carregado comp sucesso.',
         'delete-category-root' => 'Não é possível excluir a categoria raiz',
-        'create-root-failure' => 'A categoria com nome root já existe',
-        'cancel-success' => ':name cancelado com sucesso.',
+        'create-root-failure' => 'A categoria comp nome root já existe',
+        'cancel-success' => ':name cancelado comp sucesso.',
         'cancel-error' => ':name não pode ser cancelado.',
         'already-taken' => 'O :name já foi tomada.'
     ],

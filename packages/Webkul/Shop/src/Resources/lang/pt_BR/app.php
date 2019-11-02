@@ -77,7 +77,7 @@ return [
         'product-review-page-title' => 'Avaliação do Produto',
         'rating-reviews' => 'Notas & Avaliação',
         'submit' => 'ENVIAR',
-        'delete-all' => 'Todas Avaliações foram excluídas com sucesso',
+        'delete-all' => 'Todas Avaliações foram excluídas comp sucesso',
         'ratingreviews' => ':rating Nota & :review Avaliação',
         'star' => 'Estrela',
         'percentage' => ':percentage %',
@@ -105,8 +105,8 @@ return [
             'conditions' => 'Condições',
             'using' => 'usando este site',
             'agreement' => 'Acordo',
-            'success' => 'Conta criado com sucesso, um e-mail foi enviado para sua verificação de conta',
-            'success-verify-email-not-sent' => 'Conta criada com sucesso, mas o email de verificação não foi enviado',
+            'success' => 'Conta criado comp sucesso, um e-mail foi enviado para sua verificação de conta',
+            'success-verify-email-not-sent' => 'Conta criada comp sucesso, mas o email de verificação não foi enviado',
             'failed' => 'Erro! Não é possível criar sua conta, tente novamente mais tarde',
             'already-verified' => 'Sua conta já foi confirmada ou tente enviar novamente novo de e-mail de confirmação',
             'verification-not-sent' => 'Erro! Problema ao enviar e-mail de verificação, tente novamente mais tarde',
@@ -162,7 +162,7 @@ return [
                     'edit' => 'Editar',
                 ],
 
-                'edit-success' => 'Perfil Atualizado com Sucesso',
+                'edit-success' => 'Perfil Atualizado comp Sucesso',
                 'edit-fail' => 'Erro! O perfil não pode ser atualizado, por favor, tente novamente mais tarde',
                 'unmatch' => 'A senha antiga não corresponde',
 
@@ -211,7 +211,7 @@ return [
                     'postcode' => 'CEP',
                     'phone' => 'Telefone',
                     'submit' => 'Salvar Endereço',
-                    'success' => 'Endereço foi adicionado com sucesso.',
+                    'success' => 'Endereço foi adicionado comp sucesso.',
                     'error' => 'Endereço não pode ser adicionado.'
                 ],
 
@@ -219,10 +219,10 @@ return [
                     'page-title' => 'Cliente - Editar Endereço',
                     'title' => 'Editar Endereço',
                     'submit' => 'Salvar Endereço',
-                    'success' => 'Endereço Atualizado com sucesso.'
+                    'success' => 'Endereço Atualizado comp sucesso.'
                 ],
                 'delete' => [
-                    'success' => 'Endereço Excluído com sucesso',
+                    'success' => 'Endereço Excluído comp sucesso',
                     'failure' => 'Endereço não pode ser adicionado'
                 ]
             ],
@@ -343,14 +343,14 @@ return [
         'moveall' => 'Adicionar todos ao Carrinho',
         'move-to-cart' => 'Adicionar ao Carrinho',
         'error' => 'Não é possível adicionar o produto a lista de Desejos devido a problemas desconhecidos, por favor tente mais tarde',
-        'add' => 'Item adicionado com sucesso a Lista de Desejos',
-        'remove' => 'Item removido com sucesso da Lista de Desejos',
-        'moved' => 'Item movido com sucesso para Lista de Desejos',
+        'add' => 'Item adicionado comp sucesso a Lista de Desejos',
+        'remove' => 'Item removido comp sucesso da Lista de Desejos',
+        'moved' => 'Item movido comp sucesso para Lista de Desejos',
         'move-error' => 'Item não pode ser movido para Lista de Desejos, por favor, tente novamente mais tarde',
-        'success' => 'Item adicionado com sucesso a Lista de Desejos',
+        'success' => 'Item adicionado comp sucesso a Lista de Desejos',
         'failure' => 'Item não pode ser adicionado à Lista de Desejos, por favor, tente novamente mais tarde',
         'already' => 'Item já presente em sua lista de desejos',
-        'removed' => 'Item removido com sucesso da Lista de Desejos',
+        'removed' => 'Item removido comp sucesso da Lista de Desejos',
         'remove-fail' => 'Item não pode ser removido da lista de desejos, por favor, tente novamente mais tarde',
         'empty' => 'Você não tem nenhum item em sua Lista de Desejos',
         'remove-all-success' => 'Todos os itens da sua lista de desejos foram removidos',
@@ -386,7 +386,7 @@ return [
             'add-config-warning' => 'Por favor, selecione a opção antes de adicionar ao carrinho',
             'quantity' => [
                 'quantity' => 'Quantidade',
-                'success' => 'Carrinho Item(s) Atualizados com Sucesso!',
+                'success' => 'Carrinho Item(s) Atualizados comp Sucesso!',
                 'illegal' => 'Quantidade não pode ser menor que um',
                 'inventory_warning' => 'A quantidade solicitada não está disponível, por favor, tente novamente mais tarde',
                 'error' => 'Não é possível atualizar o item(s) no momento, por favor, tente novamente mais tarde'
@@ -394,8 +394,8 @@ return [
 
             'item' => [
                 'error_remove' => 'Nenhum item para remover do carrinho',
-                'success' => 'Item foi adicionado com sucesso ao carrinho',
-                'success-remove' => 'Item foi removido com sucesso do carrinho',
+                'success' => 'Item foi adicionado comp sucesso ao carrinho',
+                'success-remove' => 'Item foi removido comp sucesso do carrinho',
                 'error-add' => 'Item não pode ser adicionado ao carrinho, por favor, tente novamente mais tarde',
             ],
 
@@ -453,7 +453,7 @@ return [
         ],
 
         'success' => [
-            'title' => 'Pedido enviado com sucesso!',
+            'title' => 'Pedido enviado comp sucesso!',
             'thanks' => 'Obrigado pelo seu pedido!',
             'order-id-info' => 'Seu ID do Pedido é #:order_id',
             'info' => 'Nós lhe enviaremos por e-mail, detalhes do seu pedido e informações de rastreamento'
@@ -520,9 +520,9 @@ return [
     ],
 
     'response' => [
-        'create-success' => ':name criado com sucesso.',
-        'update-success' => ':name atualizado com sucesso.',
-        'delete-success' => ':name excluído com sucesso.',
-        'submit-success' => ':name enviado com sucesso.'
+        'create-success' => ':name criado comp sucesso.',
+        'update-success' => ':name atualizado comp sucesso.',
+        'delete-success' => ':name excluído comp sucesso.',
+        'submit-success' => ':name enviado comp sucesso.'
     ],
 ];

@@ -16,7 +16,7 @@ class InventoryTableSeeder extends Seeder
             'code' => 'default',
             'name' => 'Default',
             'contact_name' => 'Detroit Warehouse',
-            'contact_email' => 'warehouse@example.com',
+            'contact_email' => 'warehouse@example.comp',
             'contact_number' => 1234567899,
             'status' => 1,
             'country' => 'US',

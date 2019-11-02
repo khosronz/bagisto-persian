@@ -7,7 +7,7 @@ use Webkul\Core\Eloquent\Repository;
 /**
  * Cart Items Reposotory
  *
- * @author    Prashant Singh <prashant.singh852@webkul.com>
+ * @author    Prashant Singh <prashant.singh852@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 

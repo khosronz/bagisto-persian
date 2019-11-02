@@ -12,7 +12,7 @@ use Webkul\Product\Models\ProductAttributeValue as ProductAttributeValue;
 /**
  * ConvertXToProductID
  *
- * @author  Prashant Singh <prashant.singh852@webkul.com> @prashant-webkul
+ * @author  Prashant Singh <prashant.singh852@webkul.comp> @prashant-webkul
  * @copyright 2019 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 class ConvertXToProductId

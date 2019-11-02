@@ -11,7 +11,7 @@ use Maatwebsite\Excel\Concerns\Importable;
 /**
  * DataGridImport class
  *
- * @author    Rahul Shukla <rahulshukla.symfony517@webkul.com>
+ * @author    Rahul Shukla <rahulshukla.symfony517@webkul.comp>
  * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
 */
 

@@ -151,7 +151,7 @@ return [
         'vendor' => 'nwidart',
         'author' => [
             'name' => 'Nicolas Widart',
-            'email' => 'n.widart@gmail.com',
+            'email' => 'n.widart@gmail.comp',
         ],
     ],
     /*
